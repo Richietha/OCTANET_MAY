@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+	flex-direction: column;
+	width: 300px;
+	box-shadow: 1px 1px 1px 5px rgba(81, 221, 17, 0.839);
+	border-top: 5px solid  #349c87;
+	border-bottom: 5px solid #009578;
+    border-left:5px solid #009578; 
+    border-right: 5px solid #009578;
+    color: rgb(232, 232, 255);
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    
+
+    
+} 
+h1{
+    text-decoration: underline;
+    color:rgb(227, 227, 227);
+ 
+}
+
+.todo {
+	display: flex;
+	justify-content: space-between;
+	padding: 2px;
+    margin-bottom: 25px;
+    background-size: cover;
+} 
+
+.todo__value {
+	background-color:rgb(181, 179, 175);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	  
+}
